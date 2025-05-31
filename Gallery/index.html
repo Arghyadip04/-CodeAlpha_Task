@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Image Gallery</h1>
+  <div class="gallery" id="gallery">
+    <img src="https://picsum.photos/id/1015/400/300" alt="Image 1" />
+    <img src="https://picsum.photos/id/1016/400/300" alt="Image 2" />
+    <img src="https://picsum.photos/id/1018/400/300" alt="Image 3" />
+    <img src="https://picsum.photos/id/1019/400/300" alt="Image 4" />
+    <img src="https://picsum.photos/id/1020/400/300" alt="Image 5" />
+    <img src="https://picsum.photos/id/1021/400/300" alt="Image 6" />
+    <img src="https://picsum.photos/id/1023/400/300"alt="Image 7" />
+    <img src="https://picsum.photos/id/1027/400/300"alt="Image 8" />
+    <img src="https://picsum.photos/id/1028/400/300"alt="Image 9" />
+    <img src="https://picsum.photos/id/1033/400/300"alt="Image 10" />
+    <img src="https://picsum.photos/id/1038/400/300"alt="Image 11" />
+    <img src="https://picsum.photos/id/1050/400/300"alt="Image 12" />
+    <img src="https://picsum.photos/id/1052/400/300"alt="Image 13" />
+    <img src="https://picsum.photos/id/1044/400/300"alt="Image 14" />
+    <img src="https://picsum.photos/id/1055/400/300"alt="Image 15" />
+  </div>
+
+  <div class="lightbox" id="lightbox">
+    <span class="close-btn" onclick="closeLightbox()">✕</span>
+    <div class="controls">
+      <span onclick="prevImage()">⟨</span>
+      <span onclick="nextImage()">⟩</span>
+    </div>
+    <img id="lightbox-img" src="" alt="Expanded View" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
